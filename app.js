@@ -1,5 +1,3 @@
-function sayHello(name) {
-    console.log('hello ' + name);
-}
+var consoler = require('./loger');
 
-sayHello('mesh nobie');
+consoler.log('writen')
